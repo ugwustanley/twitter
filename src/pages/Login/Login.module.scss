@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.lastSection {
+     width: 100%;
+     display: flex;
+     align-content: space-around;
+     justify-content: center;
+
+     span {
+          margin: 0px 5px;
+     }
+}
+
+.link {
+     color: $color;
+     text-decoration: none;
+
+     &:hover {
+          text-decoration: underline;
+     }
+}

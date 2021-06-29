@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.btn {
+     width: fit-content;
+     padding: 15px 20px;
+     border: none;
+     color: #fff;
+     font-weight: bold;
+     background-color: $color;
+     border-radius: 30px;
+     margin: 20px auto;
+
+     &:hover {
+          background-color: $color-deep;
+     }
+}
+
+.btn-max {
+     @extend .btn;
+     width: 80%;
+}
