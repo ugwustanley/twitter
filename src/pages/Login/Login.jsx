@@ -1,3 +1,4 @@
+import PassReset from '../PassReset/PassReset'
 import Button from "../../components/Button/Button";
 import Logo from "../../components/Logo/Logo";
 import style from "./Login.module.scss";

@@ -1,0 +1,63 @@
+@import '../../index.scss';
+
+
+.passreset{
+    
+    display:grid;
+    place-content:center;
+    padding:20px;
+    width:100%;
+
+    &__main{
+        max-width:500px;
+    }
+    
+}
+.passreset__main{
+    max-width:500px;
+}
+.username{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.usernameContainer {
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+    div{
+        text-align:center;
+        background-color:rgba(0, 0, 0, 0.61);
+        height:48px;
+        margin-top:10px;
+        border-right: 0px;
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+        h3{
+            margin-top:7px;
+            font-size:20px;
+            color:#fff;
+        }
+    }
+}
+h4{
+    margin:10px 0px;
+}
+h1{
+    font-size:26px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.button {
+    width: calc(100% + 10px);
+    padding: 15px 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: $color;
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-top:40px;
+
+    &:hover {
+         background-color: $color-deep;
+    }
+}
